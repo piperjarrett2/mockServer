@@ -1,4 +1,4 @@
-/ server.js
+// server.js
 
 // Import the Express framework
 const express = require('express');
