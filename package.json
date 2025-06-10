@@ -1,0 +1,18 @@
+{
+  "name": "koyeb-redirect-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js server for Koyeb that returns a 307 redirect.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
