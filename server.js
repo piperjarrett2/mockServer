@@ -29,7 +29,7 @@ app.get('/keyob', (req, res) => {
   console.log(`Received request for /keyob. Redirecting to: ${REDIRECT_URL}`);
   
   // Respond with a 307 redirect status and the target URL.
-  res.redirect(307, REDIRECT_URL);
+  res.status(307).redirect(307, REDIRECT_URL);
 });
 
 /**
